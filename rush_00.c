@@ -1,4 +1,10 @@
+/******************************************************************************
 
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
 #include <unistd.h>
 
 int		ft_atoi(const char *str)
@@ -74,6 +80,11 @@ int main(int ac, char **av)
     {
         write(1,"o\n",1);
         return (0);
+    }
+    if (y == 1)
+    {
+      write_else(x, 'o', 'o');
+      return (0);
     }
     write_else(x, 'o', 'o');
     while (y != 1)
