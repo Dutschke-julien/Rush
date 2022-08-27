@@ -86,6 +86,7 @@ int main(int ac, char **av)
       write_else(x, 'o', 'o');
       return (0);
     }
+    y--;
     write_else(x, 'o', 'o');
     while (y != 1)
     {
