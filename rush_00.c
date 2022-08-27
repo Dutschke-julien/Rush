@@ -1,10 +1,3 @@
-/******************************************************************************
-
-                            Online C Compiler.
-                Code, Compile, Run and Debug C program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
 
 #include <unistd.h>
 
@@ -75,7 +68,7 @@ int main(int ac, char **av)
         return (1);
     int x = ft_atoi(av[1]);
     int y = ft_atoi(av[2]);
-    if (!x || !y)
+    if (x <= 0 || y <= 0)
         return(1);
     if (x ==1 && y ==1)
     {
