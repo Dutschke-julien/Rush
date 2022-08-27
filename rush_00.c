@@ -71,11 +71,10 @@ void write_else(int x, char f_letter, char l_letter)
 
 int main(int ac, char **av)
 {
-    int x = ft_atoi(av[1]);
-    int y = ft_atoi(av[2]);
-    int save_y  = y;
     if (ac != 3)
         return (1);
+    int x = ft_atoi(av[1]);
+    int y = ft_atoi(av[2]);
     if (!x || !y)
         return(1);
     if (x ==1 && y ==1)
